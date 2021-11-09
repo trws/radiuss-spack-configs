@@ -14,6 +14,7 @@
 #   ~/.spack/config.yaml
 # -------------------------------------------------------------------------
 config:
+  concretizer: "clingo"
   # This is the path to the root of the Spack install tree.
   # You can use $spack here to refer to the root of the spack instance.
   install_tree: $spack/..
@@ -77,4 +78,4 @@ config:
   # If set to 4, for example, `spack install` will run `make -j4`.
   # If not set, all available cores are used by default.
   # for uberenv, limit build_jobs to 8
-  build_jobs: 8
+  build_jobs: 54
