@@ -193,10 +193,7 @@ compilers:
       cxx: /usr/tce/packages/pgi/pgi-18.5/bin/pgc++
       f77: /usr/tce/packages/pgi/pgi-18.5/bin/pgf77
       fc: /usr/tce/packages/pgi/pgi-18.5/bin/pgf95
-    flags:
-      cflags: -rc=/usr/workspace/umpire/pgi/x86_64/local-gcc-8.3.1-rc
-      cxxflags: -rc=/usr/workspace/umpire/pgi/x86_64/local-gcc-8.3.1-rc
-      fflags: -rc=/usr/workspace/umpire/pgi/x86_64/local-gcc-8.3.1-rc
+    flags: {}
     operating_system: rhel7
     target: x86_64
     modules: []
@@ -209,10 +206,7 @@ compilers:
       cxx: /usr/tce/packages/pgi/pgi-19.4/bin/pgc++
       f77: /usr/tce/packages/pgi/pgi-19.4/bin/pgfortran
       fc: /usr/tce/packages/pgi/pgi-19.4/bin/pgfortran
-    flags:
-      cflags: -rc=/usr/workspace/umpire/pgi/x86_64/local-gcc-8.3.1-rc
-      cxxflags: -rc=/usr/workspace/umpire/pgi/x86_64/local-gcc-8.3.1-rc
-      fflags: -rc=/usr/workspace/umpire/pgi/x86_64/local-gcc-8.3.1-rc
+    flags: {}
     operating_system: rhel7
     target: x86_64
     modules: []
@@ -225,10 +219,7 @@ compilers:
       cxx: /usr/tce/packages/pgi/pgi-19.7/bin/pgc++
       f77: /usr/tce/packages/pgi/pgi-19.7/bin/pgfortran
       fc: /usr/tce/packages/pgi/pgi-19.7/bin/pgf95
-    flags:
-      cflags: -rc=/usr/workspace/umpire/pgi/x86_64/local-gcc-8.3.1-rc
-      cxxflags: -rc=/usr/workspace/umpire/pgi/x86_64/local-gcc-8.3.1-rc
-      fflags: -rc=/usr/workspace/umpire/pgi/x86_64/local-gcc-8.3.1-rc
+    flags: {}
     operating_system: rhel7
     target: x86_64
     modules: []
@@ -241,10 +232,7 @@ compilers:
       cxx: /usr/tce/packages/pgi/pgi-20.1/bin/pgc++
       f77: /usr/tce/packages/pgi/pgi-20.1/bin/pgfortran
       fc: /usr/tce/packages/pgi/pgi-20.1/bin/pgf95
-    flags:
-      cflags: -rc=/usr/workspace/umpire/pgi/x86_64/local-gcc-8.3.1-rc
-      cxxflags: -rc=/usr/workspace/umpire/pgi/x86_64/local-gcc-8.3.1-rc
-      fflags: -rc=/usr/workspace/umpire/pgi/x86_64/local-gcc-8.3.1-rc
+    flags: {}
     operating_system: rhel7
     target: x86_64
     modules: []
